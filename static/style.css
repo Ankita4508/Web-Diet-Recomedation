@@ -141,6 +141,26 @@ main {
     transform: translateY(2px); /* Легкое смещение вниз при нажатии */
 }
 
+.delete-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #F6FFF7;
+    background-color: #d9534f; /* Красный цвет для кнопки удаления */
+    border: none;
+    border-radius: 8px; /* Изменено скругление */
+    transition: all 0.3s ease;
+    margin-top: 10px; /* Отступ сверху */
+}
+
+.delete-button:hover {
+    background-color: #c9302c;
+}
+
 /* Стили для переключателя вида */
 .controls {
     display: flex;
@@ -269,8 +289,73 @@ input:checked + .slider:before {
 #card-container.grid img{
     aspect-ratio: 1 / 1; /* Соотношение сторон 1:1 */
     width: 100%;
-    margin: 0 auto 20px; /* Центрирование карточек и отступ снизу */
+    margin: 0 auto;
 }
+
+/* Стили для кнопок в карточках диет */
+.card .details-button,
+.card .delete-button,
+.card .edit-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #F6FFF7;
+    background-color: #475447;
+    border: none;
+    border-radius: 8px; /* Изменено скругление */
+    transition: all 0.3s ease;
+    margin: 10px 5px; /* Отступы между кнопками */
+}
+
+.card .details-button:hover,
+.card .delete-button:hover,
+.card .edit-button:hover {
+    background-color: #315a31;
+}
+
+.card .details-button:active,
+.card .delete-button:active,
+.card .edit-button:active {
+    background-color: #A2B1A3;
+    transform: translateY(2px);
+}
+
+/* Стили для иконок кнопок */
+.button-icon {
+    width: 24px;
+    height: 24px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(106%) contrast(101%);
+}
+
+/* В режиме grid показываем иконки и скрываем текст */
+#card-container.grid .details-button img,
+#card-container.grid .delete-button img,
+#card-container.grid .edit-button img {
+    display: inline-block;
+}
+
+#card-container.grid .details-button,
+#card-container.grid .delete-button,
+#card-container.grid .edit-button {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: 10px; /* Отступы между кнопками */    
+}
+
+#card-container.grid .details-button::after,
+#card-container.grid .delete-button::after,
+#card-container.grid .edit-button::after {
+    content: none; /* Убираем текст в режиме grid */
+}
+
+
 
 
 .day {
@@ -438,6 +523,56 @@ hr {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+
+/* Стили для модального окна редактирования */
+#edit-modal .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Уменьшение ширины для лучшего восприятия */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#edit-modal .modal-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#edit-modal .modal-content input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#edit-modal .modal-content button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #F6FFF7;
+    background-color: #475447;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+#edit-modal .modal-content button:hover {
+    background-color: #315a31;
+}
+
+#edit-modal .modal-content button:active {
+    background-color: #A2B1A3;
+    transform: translateY(2px);
 }
 
 

@@ -1,3 +1,4 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -9,7 +10,6 @@
     <script>
         const staticPath = "{{ url_for('static', filename='') }}";
     </script>
-
 </head>
 <body>
     <div class="container">
@@ -38,7 +38,6 @@
             <div id="loading" class="loading" style="display: none;"></div>
             <div id="card-container"></div>
         </main>
-        
     </div>
 
     <footer>
@@ -68,11 +67,21 @@
         </div>
     </footer>
 
-    <!-- Модальное окно -->
+    <!-- Модальное окно для просмотра данных -->
     <div id="modal" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal()">&times;</span>
             <div id="data-container"></div>
+        </div>
+    </div>
+
+    <!-- Модальное окно для редактирования -->
+    <div id="edit-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeEditModal()">&times;</span>
+            <h2>Изменить название диеты</h2>
+            <input type="text" id="edit-title-input" placeholder="Новое название">
+            <button id="save-button" onclick="saveChanges()">Сохранить</button>
         </div>
     </div>
 
