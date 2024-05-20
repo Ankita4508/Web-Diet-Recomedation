@@ -1,0 +1,443 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #E3EFE3;
+    color: #293229;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0; /* Логотип не будет растягиваться */
+    padding-right: 1em;
+}
+
+header .logo img {
+    width: 50px;
+    height: 30px;
+}
+
+header .nav {
+    flex-grow: 1; /* Навигация растягивается */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #293229;
+    font-weight: 700;
+    font-size: 20px;
+    transition: color 0.3s ease; /* Плавный переход */
+}
+
+header nav ul li a:hover {
+    color: #F6FFF7; /* Цвет при наведении */
+}
+
+/* Стили для горизонтальной линии после header */
+.header-line {
+    border: 0;
+    border-top: 1px solid #475447;
+    margin: 20px 0;
+}
+
+/* Стили для кнопок навигации при нажатии */
+header nav ul li a.active {
+    background-color: #475447;
+    border-radius: 10px;
+    color: #F6FFF7;
+    padding: 5px 20px;
+}
+
+main {
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    /* align-items: center; */
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #F6FFF7;
+    background-color: #475447; /* Основной цвет кнопки */
+    border: none;
+    border-radius: 25px; /* Более округлые края */
+    box-shadow: 0 2px #293229; /* Легкая тень */
+    transition: all 0.3s ease; /* Плавный переход для всех свойств */
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: rgba(255, 255, 255, 0.15);
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+.button:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.button:hover {
+    background-color: #315a31; /* Цвет при наведении */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Более выраженная тень */
+}
+
+.button:active {
+    background-color: #A2B1A3;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(2px); /* Легкое смещение вниз при нажатии */
+}
+
+/* Стили для переключателя вида */
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.controls .button {
+    margin: 0 auto;
+}
+
+.switch {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #475447;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+/* Стили для контейнера в режиме grid */
+#card-container.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.loading {
+    border: 8px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top: 8px solid #475447; /* Основной цвет значка загрузки */
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite; /* Более быстрая анимация */
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Стили для карточек диет */
+.card {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 16px; /* Изменено скругление */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.card .details-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #F6FFF7;
+    background-color: #475447;
+    border: none;
+    border-radius: 8px; /* Изменено скругление */
+    transition: all 0.3s ease;
+}
+
+.card .details-button:hover {
+    background-color: #315a31;
+}
+
+.card-image {
+    width: 80%;
+    aspect-ratio: 21 / 9; /* Соотношение сторон 1:1 */
+    object-fit: cover; /* Масштабирование изображения */
+    border-radius: 16px; /* Скругление углов, если необходимо */
+    margin-bottom: 20px; /* Отступ снизу */
+    margin: 0 auto 20px; /* Центрирование карточек и отступ снизу */
+}
+
+#card-container.grid img{
+    aspect-ratio: 1 / 1; /* Соотношение сторон 1:1 */
+    width: 100%;
+    margin: 0 auto 20px; /* Центрирование карточек и отступ снизу */
+}
+
+
+.day {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.day h2 {
+    margin-top: 0;
+    font-size: 32px;
+}
+
+.day ul {
+    list-style-type: disc; /* Маркированный список */
+    padding-left: 20px; /* Отступ слева для списка */
+}
+
+.day li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+.item {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: left;
+}
+
+footer {
+    background-color: #475447;
+    color: #A2B1A3;
+    padding: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%; /* Растягиваем футер на всю ширину */
+    box-sizing: border-box; /* Учитываем padding в ширине */
+    position: relative;
+    bottom: 0;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo img {
+    height: 40px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(106%) contrast(101%);
+    padding-right: 1em;
+    width: 50px;
+    height: 30px;
+}
+
+.footer-logo span {
+    font-size: 20px;
+    font-weight: 700;
+    color: #F6FFF7;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #A2B1A3;
+    font-size: 12px;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #A2B1A3;
+    margin: 20px 0;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+.footer-social {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: #A2B1A3;
+    
+}
+
+.footer-social a:hover {
+    color: #fff;
+}
+
+.footer-social a img {
+    width: 18px;
+    height: 18px;
+    filter: invert(62%) sepia(6%) saturate(0%) hue-rotate(93deg) brightness(92%) contrast(85%);
+    transition: filter 0.3s ease;
+}
+
+.footer-social a img:hover {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(106%) contrast(101%);
+}
+
+/* ---------------------------------------------------- */
+
+
+/* Стили для модального окна */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+

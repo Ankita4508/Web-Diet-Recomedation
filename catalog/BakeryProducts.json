@@ -1,0 +1,125 @@
+{
+    "category": "Bakery Products",
+    "products": [
+        {
+            "product_id": "523456",
+            "name": "Хлеб Baker'sChoice",
+            "brand": "Baker'sChoice",
+            "price": 50,
+            "unit": "за штуку",
+            "description": "Свежий хлеб от местной пекарни.",
+            "ingredients": "Мука, вода, дрожжи, соль",
+            "nutritional_value": {
+                "calories": 265,
+                "proteins": 9,
+                "fats": 3.2,
+                "carbohydrates": 49
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Пекарня",
+            "barcode": "5234567890123",
+            "stock": 100,
+            "rating": 4.5
+        },
+        {
+            "product_id": "523457",
+            "name": "Хлеб FreshBread",
+            "brand": "FreshBread",
+            "price": 55,
+            "unit": "за штуку",
+            "description": "Свежий хлеб от местной пекарни.",
+            "ingredients": "Мука, вода, дрожжи, соль",
+            "nutritional_value": {
+                "calories": 270,
+                "proteins": 9.5,
+                "fats": 3.3,
+                "carbohydrates": 50
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Пекарня",
+            "barcode": "5234567890124",
+            "stock": 110,
+            "rating": 4.6
+        },
+        {
+            "product_id": "523458",
+            "name": "Овсянка OatKing",
+            "brand": "OatKing",
+            "price": 120,
+            "unit": "за кг",
+            "description": "Свежая овсянка от местного производителя.",
+            "ingredients": "Овес",
+            "nutritional_value": {
+                "calories": 389,
+                "proteins": 16.9,
+                "fats": 6.9,
+                "carbohydrates": 66.3
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Зерновая компания",
+            "barcode": "5234567890125",
+            "stock": 80,
+            "rating": 4.7
+        },
+        {
+            "product_id": "523459",
+            "name": "Овсянка FreshOats",
+            "brand": "FreshOats",
+            "price": 125,
+            "unit": "за кг",
+            "description": "Свежая овсянка от местного производителя.",
+            "ingredients": "Овес",
+            "nutritional_value": {
+                "calories": 390,
+                "proteins": 17,
+                "fats": 7,
+                "carbohydrates": 67
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Зерновая компания",
+            "barcode": "5234567890126",
+            "stock": 90,
+            "rating": 4.8
+        },
+        {
+            "product_id": "523460",
+            "name": "Киноа QuinoaQueen",
+            "brand": "QuinoaQueen",
+            "price": 400,
+            "unit": "за кг",
+            "description": "Свежая киноа от местного производителя.",
+            "ingredients": "Киноа",
+            "nutritional_value": {
+                "calories": 368,
+                "proteins": 14.1,
+                "fats": 6.1,
+                "carbohydrates": 64.2
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Зерновая компания",
+            "barcode": "5234567890127",
+            "stock": 70,
+            "rating": 4.9
+        },
+        {
+            "product_id": "523461",
+            "name": "Киноа FreshQuinoa",
+            "brand": "FreshQuinoa",
+            "price": 410,
+            "unit": "за кг",
+            "description": "Свежая киноа от местного производителя.",
+            "ingredients": "Киноа",
+            "nutritional_value": {
+                "calories": 370,
+                "proteins": 14.2,
+                "fats": 6.2,
+                "carbohydrates": 65
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Зерновая компания",
+            "barcode": "5234567890128",
+            "stock": 80,
+            "rating": 4.8
+        }
+    ]
+}

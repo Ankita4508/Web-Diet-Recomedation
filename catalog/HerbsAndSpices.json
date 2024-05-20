@@ -1,0 +1,125 @@
+{
+    "category": "Herbs and Spices",
+    "products": [
+        {
+            "product_id": "923456",
+            "name": "Соль SeaSalt",
+            "brand": "SeaSalt",
+            "price": 50,
+            "unit": "за кг",
+            "description": "Морская соль высокого качества.",
+            "ingredients": "Соль",
+            "nutritional_value": {
+                "calories": 0,
+                "proteins": 0,
+                "fats": 0,
+                "carbohydrates": 0
+            },
+            "expiration_date": "2024-12-31",
+            "manufacturer": "ООО Сольпром",
+            "barcode": "9234567890123",
+            "stock": 200,
+            "rating": 4.5
+        },
+        {
+            "product_id": "923457",
+            "name": "Соль FreshSalt",
+            "brand": "FreshSalt",
+            "price": 55,
+            "unit": "за кг",
+            "description": "Морская соль высокого качества.",
+            "ingredients": "Соль",
+            "nutritional_value": {
+                "calories": 0,
+                "proteins": 0,
+                "fats": 0,
+                "carbohydrates": 0
+            },
+            "expiration_date": "2024-12-31",
+            "manufacturer": "ООО Сольпром",
+            "barcode": "9234567890124",
+            "stock": 210,
+            "rating": 4.6
+        },
+        {
+            "product_id": "923458",
+            "name": "Перец PepperMill",
+            "brand": "PepperMill",
+            "price": 300,
+            "unit": "за кг",
+            "description": "Свежемолотый черный перец.",
+            "ingredients": "Черный перец",
+            "nutritional_value": {
+                "calories": 251,
+                "proteins": 10.4,
+                "fats": 3.3,
+                "carbohydrates": 64
+            },
+            "expiration_date": "2024-12-31",
+            "manufacturer": "ООО Специи",
+            "barcode": "9234567890125",
+            "stock": 100,
+            "rating": 4.7
+        },
+        {
+            "product_id": "923459",
+            "name": "Перец FreshPepper",
+            "brand": "FreshPepper",
+            "price": 310,
+            "unit": "за кг",
+            "description": "Свежемолотый черный перец.",
+            "ingredients": "Черный перец",
+            "nutritional_value": {
+                "calories": 252,
+                "proteins": 10.5,
+                "fats": 3.4,
+                "carbohydrates": 65
+            },
+            "expiration_date": "2024-12-31",
+            "manufacturer": "ООО Специи",
+            "barcode": "9234567890126",
+            "stock": 110,
+            "rating": 4.8
+        },
+        {
+            "product_id": "923460",
+            "name": "Корица SpiceWorld",
+            "brand": "SpiceWorld",
+            "price": 400,
+            "unit": "за кг",
+            "description": "Свежемолотая корица.",
+            "ingredients": "Корица",
+            "nutritional_value": {
+                "calories": 247,
+                "proteins": 4,
+                "fats": 1.2,
+                "carbohydrates": 81
+            },
+            "expiration_date": "2024-12-31",
+            "manufacturer": "ООО Специи",
+            "barcode": "9234567890127",
+            "stock": 90,
+            "rating": 4.9
+        },
+        {
+            "product_id": "923461",
+            "name": "Корица FreshCinnamon",
+            "brand": "FreshCinnamon",
+            "price": 410,
+            "unit": "за кг",
+            "description": "Свежемолотая корица.",
+            "ingredients": "Корица",
+            "nutritional_value": {
+                "calories": 248,
+                "proteins": 4.1,
+                "fats": 1.3,
+                "carbohydrates": 82
+            },
+            "expiration_date": "2024-12-31",
+            "manufacturer": "ООО Специи",
+            "barcode": "9234567890128",
+            "stock": 100,
+            "rating": 4.8
+        }
+    ]
+}

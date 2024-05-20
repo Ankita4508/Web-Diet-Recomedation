@@ -1,0 +1,125 @@
+{
+    "category": "Dairy Products",
+    "products": [
+        {
+            "product_id": "623456",
+            "name": "Молоко DairyPure",
+            "brand": "DairyPure",
+            "price": 60,
+            "unit": "за литр",
+            "description": "Свежайшее молоко от местных фермеров.",
+            "ingredients": "Молоко",
+            "nutritional_value": {
+                "calories": 42,
+                "proteins": 3.4,
+                "fats": 1.0,
+                "carbohydrates": 5.0
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Фермерское хозяйство",
+            "barcode": "6234567890123",
+            "stock": 200,
+            "rating": 4.7
+        },
+        {
+            "product_id": "623457",
+            "name": "Молоко FreshMilk",
+            "brand": "FreshMilk",
+            "price": 65,
+            "unit": "за литр",
+            "description": "Свежайшее молоко от местных фермеров.",
+            "ingredients": "Молоко",
+            "nutritional_value": {
+                "calories": 43,
+                "proteins": 3.5,
+                "fats": 1.1,
+                "carbohydrates": 5.1
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Фермерское хозяйство",
+            "barcode": "6234567890124",
+            "stock": 210,
+            "rating": 4.8
+        },
+        {
+            "product_id": "623458",
+            "name": "Yogurt",
+            "brand": "Yogurt",
+            "price": 250,
+            "unit": "за кг",
+            "description": "Yogurt",
+            "ingredients": "Yogurt",
+            "nutritional_value": {
+                "calories": 59,
+                "proteins": 10,
+                "fats": 0.4,
+                "carbohydrates": 3.6
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Молочная компания",
+            "barcode": "6234567890125",
+            "stock": 100,
+            "rating": 4.7
+        },
+        {
+            "product_id": "623459",
+            "name": "Йогурт FreshYogurt",
+            "brand": "FreshYogurt",
+            "price": 260,
+            "unit": "за кг",
+            "description": "Свежий йогурт от местного производителя.",
+            "ingredients": "Молоко, закваска",
+            "nutritional_value": {
+                "calories": 60,
+                "proteins": 10.5,
+                "fats": 0.5,
+                "carbohydrates": 3.7
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Молочная компания",
+            "barcode": "6234567890126",
+            "stock": 110,
+            "rating": 4.8
+        },
+        {
+            "product_id": "623460",
+            "name": "Миндальное молоко AlmondBreeze",
+            "brand": "AlmondBreeze",
+            "price": 150,
+            "unit": "за литр",
+            "description": "Свежайшее миндальное молоко от местного производителя.",
+            "ingredients": "Миндаль, вода",
+            "nutritional_value": {
+                "calories": 13,
+                "proteins": 0.5,
+                "fats": 1.1,
+                "carbohydrates": 0.3
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Молочная компания",
+            "barcode": "6234567890127",
+            "stock": 90,
+            "rating": 4.9
+        },
+        {
+            "product_id": "623461",
+            "name": "Миндальное молоко FreshAlmondMilk",
+            "brand": "FreshAlmondMilk",
+            "price": 160,
+            "unit": "за литр",
+            "description": "Свежайшее миндальное молоко от местного производителя.",
+            "ingredients": "Миндаль, вода",
+            "nutritional_value": {
+                "calories": 14,
+                "proteins": 0.6,
+                "fats": 1.2,
+                "carbohydrates": 0.4
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Молочная компания",
+            "barcode": "6234567890128",
+            "stock": 100,
+            "rating": 4.8
+        }
+    ]
+}

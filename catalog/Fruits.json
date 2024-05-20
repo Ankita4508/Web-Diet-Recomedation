@@ -1,0 +1,125 @@
+{
+    "category": "Fruits",
+    "products": [
+        {
+            "product_id": "123456",
+            "name": "Яблоко Golden",
+            "brand": "Golden",
+            "price": 150,
+            "unit": "за кг",
+            "description": "Сочные и сладкие яблоки сорта Golden.",
+            "ingredients": "Яблоки",
+            "nutritional_value": {
+                "calories": 52,
+                "proteins": 0.3,
+                "fats": 0.2,
+                "carbohydrates": 14
+            },
+            "expiration_date": "2024-12-31",
+            "manufacturer": "ООО Сады России",
+            "barcode": "1234567890123",
+            "stock": 100,
+            "rating": 4.5
+        },
+        {
+            "product_id": "123457",
+            "name": "Яблоко Red Delicious",
+            "brand": "Red Delicious",
+            "price": 160,
+            "unit": "за кг",
+            "description": "Красные и хрустящие яблоки сорта Red Delicious.",
+            "ingredients": "Яблоки",
+            "nutritional_value": {
+                "calories": 55,
+                "proteins": 0.3,
+                "fats": 0.2,
+                "carbohydrates": 15
+            },
+            "expiration_date": "2024-12-31",
+            "manufacturer": "ООО Фрукты России",
+            "barcode": "1234567890124",
+            "stock": 120,
+            "rating": 4.6
+        },
+        {
+            "product_id": "123458",
+            "name": "Персик Juicy",
+            "brand": "Juicy",
+            "price": 200,
+            "unit": "за кг",
+            "description": "Сочные и сладкие персики сорта Juicy.",
+            "ingredients": "Персики",
+            "nutritional_value": {
+                "calories": 39,
+                "proteins": 0.9,
+                "fats": 0.3,
+                "carbohydrates": 10
+            },
+            "expiration_date": "2024-08-31",
+            "manufacturer": "ООО Сады Юга",
+            "barcode": "1234567890125",
+            "stock": 80,
+            "rating": 4.7
+        },
+        {
+            "product_id": "123459",
+            "name": "Персик Sweet",
+            "brand": "Sweet",
+            "price": 210,
+            "unit": "за кг",
+            "description": "Сладкие и ароматные персики сорта Sweet.",
+            "ingredients": "Персики",
+            "nutritional_value": {
+                "calories": 40,
+                "proteins": 1.0,
+                "fats": 0.3,
+                "carbohydrates": 11
+            },
+            "expiration_date": "2024-08-31",
+            "manufacturer": "ООО Фрукты Юга",
+            "barcode": "1234567890126",
+            "stock": 90,
+            "rating": 4.8
+        },
+        {
+            "product_id": "123460",
+            "name": "Банан Chiquita",
+            "brand": "Chiquita",
+            "price": 120,
+            "unit": "за кг",
+            "description": "Сладкие и питательные бананы бренда Chiquita.",
+            "ingredients": "Бананы",
+            "nutritional_value": {
+                "calories": 89,
+                "proteins": 1.1,
+                "fats": 0.3,
+                "carbohydrates": 23
+            },
+            "expiration_date": "2024-06-30",
+            "manufacturer": "ООО Тропические Фрукты",
+            "barcode": "1234567890127",
+            "stock": 150,
+            "rating": 4.9
+        },
+        {
+            "product_id": "123461",
+            "name": "Банан Dole",
+            "brand": "Dole",
+            "price": 130,
+            "unit": "за кг",
+            "description": "Сладкие и питательные бананы бренда Dole.",
+            "ingredients": "Бананы",
+            "nutritional_value": {
+                "calories": 90,
+                "proteins": 1.2,
+                "fats": 0.3,
+                "carbohydrates": 24
+            },
+            "expiration_date": "2024-06-30",
+            "manufacturer": "ООО Тропические Фрукты",
+            "barcode": "1234567890128",
+            "stock": 160,
+            "rating": 4.8
+        }
+    ]
+}

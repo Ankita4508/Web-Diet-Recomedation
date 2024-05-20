@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визуализация данных</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+        const staticPath = "{{ url_for('static', filename='') }}";
+    </script>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="{{ url_for('static', filename='icons/logo.svg') }}" alt="Логотип" width="50" height="30">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">ГЛАВНАЯ</a></li>
+                    <li><a href="#">ИСТОРИЯ</a></li>
+                    <li><a href="#">О НАС</a></li>
+                    <li><a href="#">АККАУНТ</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr class="header-line">        
+        <main>
+            <div class="controls">
+                <button class="button" onclick="fetchData()">Получить данные</button>
+                <label class="switch">
+                    <input type="checkbox" id="viewToggle" onclick="toggleView()">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div id="loading" class="loading" style="display: none;"></div>
+            <div id="card-container"></div>
+        </main>
+        
+    </div>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-logo">
+                <img src="{{ url_for('static', filename='icons/logo.svg') }}" alt="Логотип">
+                <span>МОЯ ДИЕТА</span>
+            </div>
+            <div class="footer-links">
+                <a href="#">Правовая информация</a>
+                <a href="#">ЧАВО</a>
+                <a href="#">Контакты</a>
+                <a href="#">Блог</a>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                <p>&copy; 2024 AIFood All Rights Reserved</p>
+            </div>
+            <div class="footer-social">
+                <a href="#"><img src="{{ url_for('static', filename='icons/vk.svg') }}" alt="ВК"></a>
+                <a href="#"><img src="{{ url_for('static', filename='icons/youtube.svg') }}" alt="ЮТУБ"></a>
+                <a href="#"><img src="{{ url_for('static', filename='icons/telegram.svg') }}" alt="ТЕЛЕГРАМ"></a>
+                <a href="#"><img src="{{ url_for('static', filename='icons/discord.svg') }}" alt="ДИСКОРД"></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Модальное окно -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="data-container"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+{
+    "category": "Vegetables",
+    "products": [
+        {
+            "product_id": "223456",
+            "name": "Морковь CarrotKing",
+            "brand": "CarrotKing",
+            "price": 100,
+            "unit": "за кг",
+            "description": "Свежая и хрустящая морковь бренда CarrotKing.",
+            "ingredients": "Морковь",
+            "nutritional_value": {
+                "calories": 41,
+                "proteins": 0.9,
+                "fats": 0.2,
+                "carbohydrates": 10
+            },
+            "expiration_date": "2024-12-31",
+            "manufacturer": "ООО Овощи России",
+            "barcode": "2234567890123",
+            "stock": 200,
+            "rating": 4.5
+        },
+        {
+            "product_id": "223457",
+            "name": "Морковь FreshCarrot",
+            "brand": "FreshCarrot",
+            "price": 110,
+            "unit": "за кг",
+            "description": "Свежая и хрустящая морковь бренда FreshCarrot.",
+            "ingredients": "Морковь",
+            "nutritional_value": {
+                "calories": 42,
+                "proteins": 1.0,
+                "fats": 0.2,
+                "carbohydrates": 11
+            },
+            "expiration_date": "2024-12-31",
+            "manufacturer": "ООО Овощи России",
+            "barcode": "2234567890124",
+            "stock": 210,
+            "rating": 4.6
+        },
+        {
+            "product_id": "223458",
+            "name": "Огурец CoolCrunch",
+            "brand": "CoolCrunch",
+            "price": 100,
+            "unit": "за кг",
+            "description": "Свежие и хрустящие огурцы бренда CoolCrunch.",
+            "ingredients": "Огурцы",
+            "nutritional_value": {
+                "calories": 16,
+                "proteins": 0.7,
+                "fats": 0.1,
+                "carbohydrates": 4
+            },
+            "expiration_date": "2024-12-31",
+            "manufacturer": "ООО Овощи России",
+            "barcode": "2234567890125",
+            "stock": 180,
+            "rating": 4.7
+        },
+        {
+            "product_id": "223459",
+            "name": "Огурец FreshCucumber",
+            "brand": "FreshCucumber",
+            "price": 110,
+            "unit": "за кг",
+            "description": "Свежие и хрустящие огурцы бренда FreshCucumber.",
+            "ingredients": "Огурцы",
+            "nutritional_value": {
+                "calories": 17,
+                "proteins": 0.8,
+                "fats": 0.1,
+                "carbohydrates": 4
+            },
+            "expiration_date": "2024-12-31",
+            "manufacturer": "ООО Овощи России",
+            "barcode": "2234567890126",
+            "stock": 190,
+            "rating": 4.8
+        },
+        {
+            "product_id": "223460",
+            "name": "Помидор Flamenco",
+            "brand": "Flamenco",
+            "price": 200,
+            "unit": "за кг",
+            "description": "Сочные и сладкие помидоры бренда Flamenco.",
+            "ingredients": "Помидоры",
+            "nutritional_value": {
+                "calories": 18,
+                "proteins": 0.9,
+                "fats": 0.2,
+                "carbohydrates": 4
+            },
+            "expiration_date": "2024-12-31",
+            "manufacturer": "ООО Овощи России",
+            "barcode": "2234567890127",
+            "stock": 150,
+            "rating": 4.9
+        },
+        {
+            "product_id": "223461",
+            "name": "Помидор RedTomato",
+            "brand": "RedTomato",
+            "price": 210,
+            "unit": "за кг",
+            "description": "Сочные и сладкие помидоры бренда RedTomato.",
+            "ingredients": "Помидоры",
+            "nutritional_value": {
+                "calories": 19,
+                "proteins": 1.0,
+                "fats": 0.2,
+                "carbohydrates": 5
+            },
+            "expiration_date": "2024-12-31",
+            "manufacturer": "ООО Овощи России",
+            "barcode": "2234567890128",
+            "stock": 160,
+            "rating": 4.8
+        }
+    ]
+}

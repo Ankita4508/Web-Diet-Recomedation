@@ -1,0 +1,125 @@
+{
+    "category": "Meat Products",
+    "products": [
+        {
+            "product_id": "323456",
+            "name": "Курица FarmFresh",
+            "brand": "FarmFresh",
+            "price": 300,
+            "unit": "за кг",
+            "description": "Свежая курица от местных фермеров.",
+            "ingredients": "Курица",
+            "nutritional_value": {
+                "calories": 165,
+                "proteins": 31,
+                "fats": 3.6,
+                "carbohydrates": 0
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Фермерское хозяйство",
+            "barcode": "3234567890123",
+            "stock": 100,
+            "rating": 4.5
+        },
+        {
+            "product_id": "323457",
+            "name": "Курица FreshChicken",
+            "brand": "FreshChicken",
+            "price": 310,
+            "unit": "за кг",
+            "description": "Свежая курица от местных фермеров.",
+            "ingredients": "Курица",
+            "nutritional_value": {
+                "calories": 170,
+                "proteins": 32,
+                "fats": 3.8,
+                "carbohydrates": 0
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Фермерское хозяйство",
+            "barcode": "3234567890124",
+            "stock": 110,
+            "rating": 4.6
+        },
+        {
+            "product_id": "323458",
+            "name": "Индейка GobbleGood",
+            "brand": "GobbleGood",
+            "price": 350,
+            "unit": "за кг",
+            "description": "Свежая индейка от местных фермеров.",
+            "ingredients": "Индейка",
+            "nutritional_value": {
+                "calories": 135,
+                "proteins": 29,
+                "fats": 1.5,
+                "carbohydrates": 0
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Фермерское хозяйство",
+            "barcode": "3234567890125",
+            "stock": 90,
+            "rating": 4.7
+        },
+        {
+            "product_id": "323459",
+            "name": "Индейка FreshTurkey",
+            "brand": "FreshTurkey",
+            "price": 360,
+            "unit": "за кг",
+            "description": "Свежая индейка от местных фермеров.",
+            "ingredients": "Индейка",
+            "nutritional_value": {
+                "calories": 140,
+                "proteins": 30,
+                "fats": 1.6,
+                "carbohydrates": 0
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Фермерское хозяйство",
+            "barcode": "3234567890126",
+            "stock": 100,
+            "rating": 4.8
+        },
+        {
+            "product_id": "323460",
+            "name": "Фарш индейки LeanGobble",
+            "brand": "LeanGobble",
+            "price": 400,
+            "unit": "за кг",
+            "description": "Свежий фарш из индейки от местных фермеров.",
+            "ingredients": "Фарш индейки",
+            "nutritional_value": {
+                "calories": 150,
+                "proteins": 28,
+                "fats": 2.0,
+                "carbohydrates": 0
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Фермерское хозяйство",
+            "barcode": "3234567890127",
+            "stock": 80,
+            "rating": 4.9
+        },
+        {
+            "product_id": "323461",
+            "name": "Фарш индейки FreshGroundTurkey",
+            "brand": "FreshGroundTurkey",
+            "price": 410,
+            "unit": "за кг",
+            "description": "Свежий фарш из индейки от местных фермеров.",
+            "ingredients": "Фарш индейки",
+            "nutritional_value": {
+                "calories": 155,
+                "proteins": 29,
+                "fats": 2.2,
+                "carbohydrates": 0
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Фермерское хозяйство",
+            "barcode": "3234567890128",
+            "stock": 90,
+            "rating": 4.8
+        }
+    ]
+}

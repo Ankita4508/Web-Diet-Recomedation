@@ -1,0 +1,125 @@
+{
+    "category": "Fish and Seafood",
+    "products": [
+        {
+            "product_id": "423456",
+            "name": "Треска OceanCatch",
+            "brand": "OceanCatch",
+            "price": 500,
+            "unit": "за кг",
+            "description": "Свежая треска от местных рыбаков.",
+            "ingredients": "Треска",
+            "nutritional_value": {
+                "calories": 82,
+                "proteins": 18,
+                "fats": 0.7,
+                "carbohydrates": 0
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Рыбный промысел",
+            "barcode": "4234567890123",
+            "stock": 50,
+            "rating": 4.5
+        },
+        {
+            "product_id": "423457",
+            "name": "Треска FreshCod",
+            "brand": "FreshCod",
+            "price": 510,
+            "unit": "за кг",
+            "description": "Свежая треска от местных рыбаков.",
+            "ingredients": "Треска",
+            "nutritional_value": {
+                "calories": 85,
+                "proteins": 19,
+                "fats": 0.8,
+                "carbohydrates": 0
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Рыбный промысел",
+            "barcode": "4234567890124",
+            "stock": 60,
+            "rating": 4.6
+        },
+        {
+            "product_id": "423458",
+            "name": "Лосось WildAlaska",
+            "brand": "WildAlaska",
+            "price": 800,
+            "unit": "за кг",
+            "description": "Свежий лосось от местных рыбаков.",
+            "ingredients": "Лосось",
+            "nutritional_value": {
+                "calories": 208,
+                "proteins": 20,
+                "fats": 13,
+                "carbohydrates": 0
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Рыбный промысел",
+            "barcode": "4234567890125",
+            "stock": 40,
+            "rating": 4.7
+        },
+        {
+            "product_id": "423459",
+            "name": "Лосось FreshSalmon",
+            "brand": "FreshSalmon",
+            "price": 810,
+            "unit": "за кг",
+            "description": "Свежий лосось от местных рыбаков.",
+            "ingredients": "Лосось",
+            "nutritional_value": {
+                "calories": 210,
+                "proteins": 21,
+                "fats": 14,
+                "carbohydrates": 0
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Рыбный промысел",
+            "barcode": "4234567890126",
+            "stock": 50,
+            "rating": 4.8
+        },
+        {
+            "product_id": "423460",
+            "name": "Тунец SeaDelight",
+            "brand": "SeaDelight",
+            "price": 600,
+            "unit": "за кг",
+            "description": "Свежий тунец от местных рыбаков.",
+            "ingredients": "Тунец",
+            "nutritional_value": {
+                "calories": 144,
+                "proteins": 23,
+                "fats": 4.9,
+                "carbohydrates": 0
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Рыбный промысел",
+            "barcode": "4234567890127",
+            "stock": 70,
+            "rating": 4.9
+        },
+        {
+            "product_id": "423461",
+            "name": "Тунец FreshTuna",
+            "brand": "FreshTuna",
+            "price": 610,
+            "unit": "за кг",
+            "description": "Свежий тунец от местных рыбаков.",
+            "ingredients": "Тунец",
+            "nutritional_value": {
+                "calories": 146,
+                "proteins": 24,
+                "fats": 5.0,
+                "carbohydrates": 0
+            },
+            "expiration_date": "2024-05-30",
+            "manufacturer": "ООО Рыбный промысел",
+            "barcode": "4234567890128",
+            "stock": 80,
+            "rating": 4.8
+        }
+    ]
+}

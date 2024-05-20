@@ -1,0 +1,345 @@
+{
+    "Day 1": {
+        "Breakfast": {
+            "Greek Yogurt with Honey and Nuts": {
+                "description": "Греческий йогурт с медом и орехами - это вкусный и питательный завтрак, который обеспечит вас энергией на весь день.",
+                "ingredients": {
+                    "Yogurt": {
+                        "type of product": "dairy products"
+                    },
+                    "Honey": {
+                        "type of product": "sweets"
+                    },
+                    "Nuts": {
+                        "type of product": "bakery products"
+                    }
+                }
+            }
+        },
+        "Lunch": {
+            "Quinoa Salad with Avocado and Cherry Tomatoes": {
+                "description": "Салат из киноа с авокадо и черри - легкий и полезный обед, богатый белками и витаминами.",
+                "ingredients": {
+                    "Quinoa": {
+                        "type of product": "bakery products"
+                    },
+                    "Avocado": {
+                        "type of product": "fruits"
+                    },
+                    "Cherry Tomatoes": {
+                        "type of product": "vegetables"
+                    },
+                    "Olive Oil": {
+                        "type of product": "dressings"
+                    },
+                    "Lemon Juice": {
+                        "type of product": "fruits"
+                    }
+                }
+            }
+        },
+        "Dinner": {
+            "Grilled Turkey with Steamed Asparagus": {
+                "description": "Запеченная индейка с паровой спаржей - это легкий и питательный ужин, богатый белками и клетчаткой.",
+                "ingredients": {
+                    "Turkey": {
+                        "type of product": "meat products"
+                    },
+                    "Asparagus": {
+                        "type of product": "vegetables"
+                    },
+                    "Garlic": {
+                        "type of product": "vegetables"
+                    },
+                    "Olive Oil": {
+                        "type of product": "dressings"
+                    },
+                    "Herbs": {
+                        "type of product": "herbs and spices"
+                    }
+                }
+            }
+        }
+    },
+    "Day 2": {
+        "Breakfast": {
+            "Smoothie with Spinach and Banana": {
+                "description": "Смузи со шпинатом и бананом - это освежающий и питательный завтрак, богатый витаминами и минералами.",
+                "ingredients": {
+                    "Spinach": {
+                        "type of product": "vegetables"
+                    },
+                    "Banana": {
+                        "type of product": "fruits"
+                    },
+                    "Almond Milk": {
+                        "type of product": "dairy products"
+                    },
+                    "Chia Seeds": {
+                        "type of product": "bakery products"
+                    }
+                }
+            }
+        },
+        "Lunch": {
+            "Lentil Soup": {
+                "description": "Суп из чечевицы - это сытный и полезный обед, богатый белками и клетчаткой.",
+                "ingredients": {
+                    "Lentils": {
+                        "type of product": "bakery products"
+                    },
+                    "Огурец": {
+                        "type of product": "vegetables"
+                    },
+                    "Celery": {
+                        "type of product": "vegetables"
+                    },
+                    "Onion": {
+                        "type of product": "vegetables"
+                    },
+                    "Garlic": {
+                        "type of product": "vegetables"
+                    },
+                    "Tomato Paste": {
+                        "type of product": "vegetables"
+                    }
+                }
+            }
+        },
+        "Dinner": {
+            "Baked Cod with Quinoa and Spinach": {
+                "description": "Запеченная треска с киноа и шпинатом - это легкий и питательный ужин, богатый белками и омега-3 жирными кислотами.",
+                "ingredients": {
+                    "Cod": {
+                        "type of product": "fish and seafood"
+                    },
+                    "Quinoa": {
+                        "type of product": "bakery products"
+                    },
+                    "Spinach": {
+                        "type of product": "vegetables"
+                    },
+                    "Lemon": {
+                        "type of product": "fruits"
+                    },
+                    "Olive Oil": {
+                        "type of product": "dressings"
+                    }
+                }
+            }
+        }
+    },
+    "Day 3": {
+        "Breakfast": {
+            "Avocado Toast with Egg": {
+                "description": "Тост с авокадо и яйцом - это вкусный и питательный завтрак, богатый белками и полезными жирами.",
+                "ingredients": {
+                    "Bread": {
+                        "type of product": "bakery products"
+                    },
+                    "Avocado": {
+                        "type of product": "fruits"
+                    },
+                    "Egg": {
+                        "type of product": "dairy products"
+                    },
+                    "Salt": {
+                        "type of product": "herbs and spices"
+                    },
+                    "Pepper": {
+                        "type of product": "herbs and spices"
+                    }
+                }
+            }
+        },
+        "Lunch": {
+            "Chicken and Vegetable Stir-Fry": {
+                "description": "Курица с овощами, обжаренная на сковороде - это легкий и питательный обед, богатый белками и витаминами.",
+                "ingredients": {
+                    "Chicken": {
+                        "type of product": "meat products"
+                    },
+                    "Bell Peppers": {
+                        "type of product": "vegetables"
+                    },
+                    "Broccoli": {
+                        "type of product": "vegetables"
+                    },
+                    "Carrots": {
+                        "type of product": "vegetables"
+                    },
+                    "Soy Sauce": {
+                        "type of product": "dressings"
+                    },
+                    "Garlic": {
+                        "type of product": "vegetables"
+                    }
+                }
+            }
+        },
+        "Dinner": {
+            "Stuffed Bell Peppers": {
+                "description": "Фаршированные перцы - это сытный и полезный ужин, богатый белками и клетчаткой.",
+                "ingredients": {
+                    "Bell Peppers": {
+                        "type of product": "vegetables"
+                    },
+                    "Ground Turkey": {
+                        "type of product": "meat products"
+                    },
+                    "Quinoa": {
+                        "type of product": "bakery products"
+                    },
+                    "Tomato Sauce": {
+                        "type of product": "vegetables"
+                    },
+                    "Onion": {
+                        "type of product": "vegetables"
+                    },
+                    "Garlic": {
+                        "type of product": "vegetables"
+                    }
+                }
+            }
+        }
+    },
+    "Day 4": {
+        "Breakfast": {
+            "Chia Pudding with Berries": {
+                "description": "Пудинг из чиа с ягодами - это вкусный и питательный завтрак, богатый омега-3 жирными кислотами и антиоксидантами.",
+                "ingredients": {
+                    "Chia Seeds": {
+                        "type of product": "bakery products"
+                    },
+                    "Almond Milk": {
+                        "type of product": "dairy products"
+                    },
+                    "Berries": {
+                        "type of product": "fruits"
+                    },
+                    "Honey": {
+                        "type of product": "sweets"
+                    }
+                }
+            }
+        },
+        "Lunch": {
+            "Tuna Salad": {
+                "description": "Салат с тунцом - это легкий и питательный обед, богатый белками и омега-3 жирными кислотами.",
+                "ingredients": {
+                    "Tuna": {
+                        "type of product": "fish and seafood"
+                    },
+                    "Mixed Greens": {
+                        "type of product": "vegetables"
+                    },
+                    "Cherry Tomatoes": {
+                        "type of product": "vegetables"
+                    },
+                    "Cucumber": {
+                        "type of product": "vegetables"
+                    },
+                    "Olive Oil": {
+                        "type of product": "dressings"
+                    },
+                    "Lemon Juice": {
+                        "type of product": "fruits"
+                    }
+                }
+            }
+        },
+        "Dinner": {
+            "Baked Chicken with Sweet Potatoes": {
+                "description": "Запеченная курица с бататом - это сытный и полезный ужин, богатый белками и витаминами.",
+                "ingredients": {
+                    "Chicken": {
+                        "type of product": "meat products"
+                    },
+                    "Sweet Potatoes": {
+                        "type of product": "vegetables"
+                    },
+                    "Olive Oil": {
+                        "type of product": "dressings"
+                    },
+                    "Garlic": {
+                        "type of product": "vegetables"
+                    },
+                    "Herbs": {
+                        "type of product": "herbs and spices"
+                    }
+                }
+            }
+        }
+    },
+    "Day 5": {
+        "Breakfast": {
+            "Oatmeal with Apple and Cinnamon": {
+                "description": "Овсянка с яблоком и корицей - это вкусный и питательный завтрак, богатый клетчаткой и витаминами.",
+                "ingredients": {
+                    "Oats": {
+                        "type of product": "bakery products"
+                    },
+                    "Apple": {
+                        "type of product": "fruits"
+                    },
+                    "Cinnamon": {
+                        "type of product": "herbs and spices"
+                    },
+                    "Milk": {
+                        "type of product": "dairy products"
+                    },
+                    "Honey": {
+                        "type of product": "sweets"
+                    }
+                }
+            }
+        },
+        "Lunch": {
+            "Vegetable Wrap": {
+                "description": "Овощной ролл - это легкий и питательный обед, богатый витаминами и клетчаткой.",
+                "ingredients": {
+                    "Tortilla": {
+                        "type of product": "bakery products"
+                    },
+                    "Bell Peppers": {
+                        "type of product": "vegetables"
+                    },
+                    "Cucumber": {
+                        "type of product": "vegetables"
+                    },
+                    "Carrots": {
+                        "type of product": "vegetables"
+                    },
+                    "Hummus": {
+                        "type of product": "bakery products"
+                    },
+                    "Spinach": {
+                        "type of product": "vegetables"
+                    }
+                }
+            }
+        },
+        "Dinner": {
+            "Salmon with Brown Rice and Broccoli": {
+                "description": "Лосось с коричневым рисом и брокколи - это сытный и полезный ужин, богатый белками и омега-3 жирными кислотами.",
+                "ingredients": {
+                    "Salmon": {
+                        "type of product": "fish and seafood"
+                    },
+                    "Brown Rice": {
+                        "type of product": "bakery products"
+                    },
+                    "Broccoli": {
+                        "type of product": "vegetables"
+                    },
+                    "Lemon": {
+                        "type of product": "fruits"
+                    },
+                    "Olive Oil": {
+                        "type of product": "dressings"
+                    }
+                }
+            }
+        }
+    }
+}

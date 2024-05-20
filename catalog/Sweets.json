@@ -1,0 +1,45 @@
+{
+    "category": "Sweets",
+    "products": [
+        {
+            "product_id": "723456",
+            "name": "Мед GoldenHoney",
+            "brand": "GoldenHoney",
+            "price": 500,
+            "unit": "за кг",
+            "description": "Натуральный мед от местных пчеловодов.",
+            "ingredients": "Мед",
+            "nutritional_value": {
+                "calories": 304,
+                "proteins": 0.3,
+                "fats": 0,
+                "carbohydrates": 82.4
+            },
+            "expiration_date": "2024-12-31",
+            "manufacturer": "ООО Пчеловодство",
+            "barcode": "7234567890123",
+            "stock": 50,
+            "rating": 4.7
+        },
+        {
+            "product_id": "723457",
+            "name": "Мед FreshHoney",
+            "brand": "FreshHoney",
+            "price": 510,
+            "unit": "за кг",
+            "description": "Натуральный мед от местных пчеловодов.",
+            "ingredients": "Мед",
+            "nutritional_value": {
+                "calories": 305,
+                "proteins": 0.4,
+                "fats": 0,
+                "carbohydrates": 82.5
+            },
+            "expiration_date": "2024-12-31",
+            "manufacturer": "ООО Пчеловодство",
+            "barcode": "7234567890124",
+            "stock": 60,
+            "rating": 4.8
+        }
+    ]
+}

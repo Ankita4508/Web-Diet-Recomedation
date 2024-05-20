@@ -1,0 +1,85 @@
+{
+    "category": "Dressings",
+    "products": [
+        {
+            "product_id": "823456",
+            "name": "Оливковое масло OliveGold",
+            "brand": "OliveGold",
+            "price": 400,
+            "unit": "за литр",
+            "description": "Высококачественное оливковое масло.",
+            "ingredients": "Оливковое масло",
+            "nutritional_value": {
+                "calories": 884,
+                "proteins": 0,
+                "fats": 100,
+                "carbohydrates": 0
+            },
+            "expiration_date": "2024-12-31",
+            "manufacturer": "ООО Маслоэкстракция",
+            "barcode": "8234567890123",
+            "stock": 100,
+            "rating": 4.7
+        },
+        {
+            "product_id": "823457",
+            "name": "Оливковое масло FreshOliveOil",
+            "brand": "FreshOliveOil",
+            "price": 410,
+            "unit": "за литр",
+            "description": "Высококачественное оливковое масло.",
+            "ingredients": "Оливковое масло",
+            "nutritional_value": {
+                "calories": 885,
+                "proteins": 0,
+                "fats": 100,
+                "carbohydrates": 0
+            },
+            "expiration_date": "2024-12-31",
+            "manufacturer": "ООО Маслоэкстракция",
+            "barcode": "8234567890124",
+            "stock": 110,
+            "rating": 4.8
+        },
+        {
+            "product_id": "823458",
+            "name": "Соевый соус SoyMaster",
+            "brand": "SoyMaster",
+            "price": 200,
+            "unit": "за литр",
+            "description": "Классический соевый соус.",
+            "ingredients": "Соевые бобы, вода, соль, пшеница",
+            "nutritional_value": {
+                "calories": 53,
+                "proteins": 8,
+                "fats": 0.6,
+                "carbohydrates": 4.9
+            },
+            "expiration_date": "2024-12-31",
+            "manufacturer": "ООО Соусная компания",
+            "barcode": "8234567890125",
+            "stock": 90,
+            "rating": 4.7
+        },
+        {
+            "product_id": "823459",
+            "name": "Соевый соус FreshSoySauce",
+            "brand": "FreshSoySauce",
+            "price": 210,
+            "unit": "за литр",
+            "description": "Классический соевый соус.",
+            "ingredients": "Соевые бобы, вода, соль, пшеница",
+            "nutritional_value": {
+                "calories": 54,
+                "proteins": 8.1,
+                "fats": 0.7,
+                "carbohydrates": 5
+            },
+            "expiration_date": "2024-12-31",
+            "manufacturer": "ООО Соусная компания",
+            "barcode": "8234567890126",
+            "stock": 100,
+            "rating": 4.8
+        }
+    ]
+}
