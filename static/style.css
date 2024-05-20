@@ -306,23 +306,30 @@ input:checked + .slider:before {
     text-decoration: none;
     outline: none;
     color: #F6FFF7;
-    background-color: #475447;
     border: none;
     border-radius: 8px; /* Изменено скругление */
     transition: all 0.3s ease;
     margin: 10px 5px; /* Отступы между кнопками */
 }
 
-.card .details-button:hover,
-.card .delete-button:hover,
-.card .edit-button:hover {
+.card .edit-button {
+    color: #293229;
+}
+
+.card .details-button:hover {
     background-color: #315a31;
+}
+
+.card .edit-button:hover {
+    background-color: #638084;
+    color: #F6FFF7;
+    border-style: none;
 }
 
 .card .details-button:active,
 .card .delete-button:active,
 .card .edit-button:active {
-    background-color: #A2B1A3;
+    background-color: #a2b1a3;
     transform: translateY(2px);
 }
 
@@ -340,6 +347,15 @@ input:checked + .slider:before {
     display: inline-block;
 }
 
+#card-container.grid .edit-button img {
+    display: inline-block;
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(106%) contrast(101%);
+}
+
+#card-container.grid .edit-button img:hover {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(106%) contrast(101%);
+}
+
 #card-container.grid .details-button,
 #card-container.grid .delete-button,
 #card-container.grid .edit-button {
@@ -354,9 +370,6 @@ input:checked + .slider:before {
 #card-container.grid .edit-button::after {
     content: none; /* Убираем текст в режиме grid */
 }
-
-
-
 
 .day {
     background-color: #fff;
@@ -485,8 +498,6 @@ hr {
 }
 
 /* ---------------------------------------------------- */
-
-
 /* Стили для модального окна */
 .modal {
     display: none;
@@ -525,7 +536,6 @@ hr {
     cursor: pointer;
 }
 
-
 /* Стили для модального окна редактирования */
 #edit-modal .modal-content {
     background-color: #fefefe;
@@ -543,7 +553,7 @@ hr {
 }
 
 #edit-modal .modal-content input[type="text"] {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
