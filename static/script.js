@@ -18,7 +18,6 @@ function updateButtonContent() {
     });
 }
 
-
 // Изменяем содержимое кнопок при переключении режима отображения
 function toggleView() {
     const cardContainer = document.getElementById('card-container');
@@ -161,8 +160,6 @@ function createDietCard(data, addToDatabase = false, id = null, title = null) {
         } else {
             card.dataset.dietId = id; // Устанавливаем id карточки
         }
-
-        updateButtonContent(); // Вызываем функцию после создания карточки
     });
 }
 
